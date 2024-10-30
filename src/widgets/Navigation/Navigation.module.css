@@ -1,0 +1,40 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+}
+.nav {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+.nav__element {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #121212;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+.active {
+    font-weight: 700;
+}
+.count {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #121212;
+    font-weight: 400;
+    color: #121212;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
