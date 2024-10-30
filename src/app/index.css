@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    max-width: calc(1440px - 48px);
+    margin: 0 auto;
+    padding: 0 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
