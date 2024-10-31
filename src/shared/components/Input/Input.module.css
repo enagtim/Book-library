@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    gap: 26px;
+    border-radius: 5px;
+    background: #DEDEDE;
+    width: 100%;
+}
+.wrapper img {
+    width: 24px;
+    height: 24px;
+}
+.wrapper input {
+    color: #252525;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+
+}
+.wrapper input::placeholder{
+    color: #252525;
+}
+.wrapper:focus-within{
+    border: 1.5px solid black;
+}
